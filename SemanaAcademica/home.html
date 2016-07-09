@@ -1,0 +1,145 @@
+<!Doctype html>
+<ht>
+    <!-- Head -->
+    <he>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $('.dropdown-toggle').dropdown();
+        </script>
+        <title>Semana Acadêmica Bilac</title>
+    </he>
+    <!-- End Head -->
+    <!-- Body -->
+    <bo>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <!-- Image with reference to homepage -->
+                        <a href="#home">
+                            <img alt="Logo" style="height: 80px; width: 150px;" src="img/logo.png">
+                        </a>
+                    </ul>
+                    <!-- Right navbar -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <!-- Login Button -->
+                            <a style="padding-right:10px;">
+                                <button type="button" class="btn btn-danger navbar-btn">Login</button>
+                            </a>
+                        </li>
+                        <li>
+                            <!-- Dropdown Button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                                    Palestras
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a>Curso 01</a></li>
+                                    <li><a>Curso 02</a></li>
+                                    <li><a>Curso 03</a></li>
+                                </ul>
+                        </li>
+                        </div>
+                        <!-- End of Dropdown Button -->
+                    </ul>
+                    <!-- End of Right Navbar -->
+                </div>
+        </nav>
+        <!-- End Navigation Bar -->
+        <!-- Carousel -->
+        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="3000" id="bs-carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#bs-carousel" data-slide-to="1"></li>
+                <li data-target="#bs-carousel" data-slide-to="2"></li>
+                <li data-target="#bs-carousel" data-slide-to="3"></li>
+            </ol>
+            <!-- End Indicators -->
+            <!-- Content -->
+            <div class="carousel-inner">
+                <!-- Slide 01 -->
+                <div class="item slides active">
+                    <div class="overlay"></div>
+                    <div class="slide-1"></div>
+                    <div class="hero">
+                        <hgroup>
+                            <h1>Titulo Palestra 01</h1>
+                            <h3>Descrição Palestra 01</h3>
+                        </hgroup>
+                    </div>
+                </div>
+                <!-- End Slide 01 -->
+                <!-- Slide 02 -->
+                <div class="item slides">
+                    <div class="overlay"></div>
+                    <div class="slide-2"></div>
+                    <div class="hero">
+                        <hgroup>
+                            <h1>Titulo Palestra 02</h1>
+                            <h3>Descrição Palestra 02</h3>
+                        </hgroup>
+                    </div>
+                </div>
+                <!-- End Slide 02 -->
+                <!-- Slide 03 -->
+                <div class="item slides">
+                    <div class="overlay"></div>
+                    <div class="slide-3"></div>
+                    <div class="hero">
+                        <hgroup>
+                            <h1>Titulo Palestra 03</h1>
+                            <h3>Descrição Palestra 03</h3>
+                        </hgroup>
+                    </div>
+                </div>
+                <!-- End Slide 03 -->
+                <!-- Slide 04 -->
+                <div class="item slides">
+                    <div class="overlay"></div>
+                    <div class="slide-4"></div>
+                    <div class="hero">
+                        <hgroup>
+                            <h1>Titulo Palestra 04</h1>
+                            <h3>Descrição Palestra 04</h3>
+                        </hgroup>
+                    </div>
+                </div>
+                <!-- End Slide 04 -->
+            </div>
+            <!-- End Content -->
+            <!-- Controls -->
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bs-carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <!-- End Left Control -->
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bs-carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+            <!-- End Right Control -->
+            <!-- End Controls -->
+        </div>
+        <!-- End Carousel -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Faculdade Bilac</p>
+            </div>
+        </footer>
+        <!-- End Footer -- >
+    </bo>
+    <!-- End Body -->
+</ht>
