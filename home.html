@@ -3,8 +3,8 @@
     <!-- Head -->
     <he>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/custom.css">
         <script src="js/jquery.min.js"></script>
@@ -18,8 +18,9 @@
     <!-- Body -->
     <bo>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
+                <!--Navbar-->
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="nav navbar-nav">
                         <!-- Image with reference to homepage -->
@@ -29,17 +30,18 @@
                     </ul>
                     <!-- Right navbar -->
                     <ul class="nav navbar-nav navbar-right">
+                        <!-- Login Button -->
                         <li>
-                            <!-- Login Button -->
-                            <a style="padding-right:10px;">
+                            <a>
                                 <button type="button" class="btn btn-danger navbar-btn">Login</button>
                             </a>
                         </li>
+                        <!--End of Login Button-->
+                        <!-- Dropdown Button -->
                         <li>
-                            <!-- Dropdown Button -->
                             <div class="btn-group">
                                 <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                                    Palestras
+                                    Cursos
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu">
@@ -47,12 +49,13 @@
                                     <li><a>Curso 02</a></li>
                                     <li><a>Curso 03</a></li>
                                 </ul>
+                            </div>
                         </li>
-                        </div>
                         <!-- End of Dropdown Button -->
                     </ul>
                     <!-- End of Right Navbar -->
                 </div>
+                <!--End of Navbar-->
         </nav>
         <!-- End Navigation Bar -->
         <!-- Carousel -->
@@ -64,8 +67,8 @@
                 <li data-target="#bs-carousel" data-slide-to="2"></li>
                 <li data-target="#bs-carousel" data-slide-to="3"></li>
             </ol>
-            <!-- End Indicators -->
-            <!-- Content -->
+            <!-- End of Indicators -->
+            <!-- Carousel Content -->
             <div class="carousel-inner">
                 <!-- Slide 01 -->
                 <div class="item slides active">
@@ -78,7 +81,7 @@
                         </hgroup>
                     </div>
                 </div>
-                <!-- End Slide 01 -->
+                <!-- End of Slide 01 -->
                 <!-- Slide 02 -->
                 <div class="item slides">
                     <div class="overlay"></div>
@@ -90,7 +93,7 @@
                         </hgroup>
                     </div>
                 </div>
-                <!-- End Slide 02 -->
+                <!-- End of Slide 02 -->
                 <!-- Slide 03 -->
                 <div class="item slides">
                     <div class="overlay"></div>
@@ -102,7 +105,7 @@
                         </hgroup>
                     </div>
                 </div>
-                <!-- End Slide 03 -->
+                <!-- End of Slide 03 -->
                 <!-- Slide 04 -->
                 <div class="item slides">
                     <div class="overlay"></div>
@@ -114,32 +117,55 @@
                         </hgroup>
                     </div>
                 </div>
-                <!-- End Slide 04 -->
+                <!-- End of Slide 04 -->
             </div>
-            <!-- End Content -->
+            <!-- End of Carousel Content -->
             <!-- Controls -->
             <!-- Left Control -->
             <a class="left carousel-control" href="#bs-carousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Anterior</span>
             </a>
-            <!-- End Left Control -->
+            <!-- End of Left Control -->
             <!-- Right Control -->
             <a class="right carousel-control" href="#bs-carousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Próximo</span>
             </a>
-            <!-- End Right Control -->
-            <!-- End Controls -->
+            <!-- End of Right Control -->
+            <!-- End of Controls -->
         </div>
-        <!-- End Carousel -->
+        <!-- End of Carousel -->
+        <!-- Content -->
+        <div class="container">
+            <!-- Rows -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Texto 01</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Texto 02</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Texto 03</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+                        amet risus.</p>
+                </div>
+            </div>
+            <!-- End of Rows -->
+        </div>
+        <!-- End of Content -->
         <!-- Footer -->
         <footer class="footer">
-            <div class="container">
-                <p class="text-muted">Faculdade Bilac</p>
+            <div class="container-fluid">
+                <p class="text-muted">Conteudo</p>
             </div>
         </footer>
-        <!-- End Footer -- >
+        <!-- End of Footer -- >
     </bo>
-    <!-- End Body -->
+    <!-- End of Body -->
 </ht>

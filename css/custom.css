@@ -1,8 +1,13 @@
+.btn-danger {
+
+    background-color: #d9534f;
+    border-color: #d43f3a
+}
+
 /*Carousel*/
 
-/********************************/
-/*       Fade Bs-carousel       */
-/********************************/
+/*Fade Bs-carousel*/
+
 .fade-carousel {
     position: relative;
     height: 100vh;
@@ -10,21 +15,23 @@
 .fade-carousel .carousel-inner .item {
     height: 100vh;
 }
-.fade-carousel .carousel-indicators > li {
+.fade-carousel .carousel-indicators> li {
     margin: 0 2px;
     background-color: #f39c12;
     border-color: #f39c12;
     opacity: .7;
 }
-.fade-carousel .carousel-indicators > li.active {
-  width: 10px;
-  height: 10px;
-  opacity: 1;
+.fade-carousel .carousel-indicators> li.active {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
 }
 
-/********************************/
-/*          Hero Headers        */
-/********************************/
+/*End Fade Bs-carousel*/
+
+
+/*Hero Headers*/
+
 .hero {
     position: absolute;
     top: 55%;
@@ -32,14 +39,13 @@
     z-index: 3;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
-      -webkit-transform: translate3d(-50%,-50%,0);
-         -moz-transform: translate3d(-50%,-50%,0);
-          -ms-transform: translate3d(-50%,-50%,0);
-           -o-transform: translate3d(-50%,-50%,0);
-              transform: translate3d(-50%,-50%,0);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
-
 .hero h1 {
     font-size: 6em;
     font-weight: bold;
@@ -47,35 +53,34 @@
     padding: 0;
     color: #ffffff;
 }
-
 .hero h3 {
     font-size: 1.5em;
     margin: 0;
     padding: 0;
     color: #ffffff;
 }
-
-
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s;
-        -ms-transition: 2s all ease-in-out .1s;
-         -o-transition: 2s all ease-in-out .1s;
-            transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
 }
 .fade-carousel .carousel-inner .item.active .hero {
     opacity: 1;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s;
-        -ms-transition: 2s all ease-in-out .1s;
-         -o-transition: 2s all ease-in-out .1s;
-            transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
 }
 
-/********************************/
-/*            Overlay           */
-/********************************/
+/*End Hero Headers*/
+
+
+/*Overlay*/
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -85,100 +90,99 @@
     opacity: .7;
 }
 
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
-.fade-carousel .slides .slide-1,
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3,
-.fade-carousel .slides .slide {
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+/*End Overlay*/
+
+
+/*Slides backgrounds*/
+
+.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3, .fade-carousel .slides .slide-4 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url("C:/Users/Gustavo/Desktop/SemanaAcademica/img/dog01.jpg");
-  height: 90%;
+    background-image: url("C:/Users/Gustavo/Desktop/Semana_Academica_Bilac/img/dog01.jpg");
+    height: 90%;
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url("C:/Users/Gustavo/Desktop/SemanaAcademica/img/dog02.jpg");
-  height: 90%;
+    background-image: url("C:/Users/Gustavo/Desktop/Semana_Academica_Bilac/img/dog02.jpg");
+    height: 90%;
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url("C:/Users/Gustavo/Desktop/SemanaAcademica/img/dog03.jpg");
-  height: 90%;
+    background-image: url("C:/Users/Gustavo/Desktop/Semana_Academica_Bilac/img/dog03.jpg");
+    height: 90%;
 }
 .fade-carousel .slides .slide-4 {
-  background-image: url("C:/Users/Gustavo/Desktop/SemanaAcademica/img/dog04.jpg");
-  height: 90%;
+    background-image: url("C:/Users/Gustavo/Desktop/Semana_Academica_Bilac/img/dog04.jpg");
+    height: 90%;
 }
 
-/********************************/
-/*          Media Queries       */
-/********************************/
-@media screen and (min-width: 980px){
-    .hero { width: 980px; }
+/*End Slides backgrounds*/
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 980px) {
+    .hero {
+        width: 980px;
+    }
 }
-@media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }
+@media screen and (max-width: 640px) {
+    .hero h1 {
+        font-size: 4em;
+    }
+}
+#bs-carousel {
+    height: 90%;
+}
+.overlay {
+    height: 90%;
 }
 
-#bs-carousel{
-  height: 90%;
-}
-.overlay{
-  height: 90%;
+/*End Media Queries*/
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    #quote-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
 }
 
-/*QUOTE CAROUSEL*/
+/* Small devices (tablets, up to 768px) */
 
-/* carousel */
-#quote-carousel
-{
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-}
-
-/* Control buttons  */
-#quote-carousel .carousel-control
-{
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-/* Previous button  */
-#quote-carousel .carousel-control.left
-{
-  left: -12px;
-}
-/* Next button  */
-#quote-carousel .carousel-control.right
-{
-  right: -12px !important;
-}
-/* Changes the position of the indicators */
-#quote-carousel .carousel-indicators
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li
-{
-  background: #c0c0c0;
-}
-#quote-carousel .carousel-indicators .active
-{
-  background: #333333;
-}
-#quote-carousel img
-{
-  width: 250px;
-  height: 100px
+@media (max-width: 768px) {
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
 }
 /* End carousel */
+
+
+/*Footer*/
+.footer{
+    padding-top: 30px;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.text-muted{
+    position: relative;
+    color: #fff;
+}
+
+/*End Footer*/
