@@ -39,8 +39,8 @@ dfn {
     font-style: italic
 }
 h1 {
-    margin: .67em 0;
-    font-size: 2em
+    font-size: 2em;
+    text-align: center;
 }
 mark {
     color: #000;
@@ -936,6 +936,7 @@ pre code {
         width: 25%
     }
     .col-md-4 {
+        text-align: justify;
         width: 33.333333%
     }
     .col-md-5 {
