@@ -21,7 +21,7 @@ audio:not([controls]) {
     display: none
 }
 a {
-    background-color: transparent
+    background-color: transparent;
 }
 a:active {
     outline: 0
@@ -555,7 +555,8 @@ pre code {
     padding-right: .9375rem;
     padding-left: .9375rem;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    padding-top: .9375rem;
 }
 .container::after {
     display: table;
@@ -1974,7 +1975,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 .btn-danger {
     color: #fff;
     background-color: #d9534f;
-    border-color: #d9534f
+    border-color: #d9534f;
 }
 .btn-danger:hover {
     color: #fff;
@@ -4821,7 +4822,7 @@ a.bg-danger:focus, a.bg-danger:hover {
     left: 0;
     z-index: 1030
 }
-.pos-f-t a{
+.pos-f-t a {
     color: #fff;
     margin-left: 1rem;
 }
@@ -4897,4 +4898,7 @@ a.bg-danger:focus, a.bg-danger:hover {
     .hidden-print {
         display: none!important
     }
+}
+.colorblack {
+    color: rgb(90, 90, 90)!important;
 }
