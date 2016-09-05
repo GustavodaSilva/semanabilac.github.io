@@ -1,0 +1,49 @@
+.sab-figure{
+	border: 3px solid #fff;
+	box-shadow: 0px 0px 3px #444;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	max-width: 400px;
+	overflow: hidden;
+
+}
+
+.sab-figure img{
+	box-shadow: 0px 0px 4px #444;
+	max-width: 100%;
+	transition: all 0.5s;
+}
+
+.sab-figure:hover img{
+	transform: scale(1.2);
+}
+
+.sab-figure:hover figcaption{
+	transform: translate(0px, -60px);
+}
+
+.sab-figure figcaption{
+	background-color: rgba(0,0,0,.7);
+	bottom: -100px;
+	left: 0px;
+	min-height: 135px;
+	position: absolute;
+	width: 100%;
+	transition: transform 0.5s;
+}
+
+.sab-figure p{
+	color: #fff;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+}
+
+.sab-figure p.title-fig{
+	font-size: 20px;
+	margin: 5px 20px;
+}
+
+.sab-figure p.text-fig{
+	padding: 0px 20px;
+}

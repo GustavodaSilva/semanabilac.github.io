@@ -4,7 +4,8 @@ html {
     -ms-text-size-adjust: 100%
 }
 body {
-    margin: 0
+    margin: 0;
+    padding-bottom: 0;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
@@ -1976,6 +1977,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     color: #fff;
     background-color: #d9534f;
     border-color: #d9534f;
+    margin-top: 10px;
 }
 .btn-danger:hover {
     color: #fff;
